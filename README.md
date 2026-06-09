@@ -75,3 +75,66 @@ The frontend will run on http://localhost:5173
 - ✅ Error handling
 - ✅ Responsive design with TailwindCSS
 - ✅ CORS enabled for React frontend
+
+## Deployment
+
+### Live Application
+
+Frontend:
+https://mypustak-frontend1.onrender.com/
+
+Backend API Documentation:
+https://mypustak-post-management-7s7g.onrender.com/docs
+
+## API Endpoints
+
+### Get All Posts
+
+```http
+GET /posts
+```
+
+### Create Post
+
+```http
+POST /posts
+```
+
+Request Body:
+
+```json
+{
+  "title": "Sample Title",
+  "body": "Sample Post Content"
+}
+```
+
+### Delete Post
+
+```http
+DELETE /posts/{id}
+```
+
+## Technologies Used
+
+### Frontend
+
+* React.js
+* Vite
+* Axios
+* Tailwind CSS
+
+### Backend
+
+* FastAPI
+* Python
+* Uvicorn
+
+### Deployment
+
+* Render Web Service
+* Render Static Site
+* GitHub
+
+
+
